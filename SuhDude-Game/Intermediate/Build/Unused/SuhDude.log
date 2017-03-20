@@ -1,0 +1,6 @@
+﻿  Compiling game modules for hot reload
+  Performing 2 actions (2 in parallel)
+  CppSpawner.cpp
+  [2/2] Link UE4Editor-SuhDude-1534.dll
+     Creating library C:\Users\Tristan\Documents\Unreal Projects\SuhDude\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-1534.lib and object C:\Users\Tristan\Documents\Unreal Projects\SuhDude\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-1534.exp
+  Total build time: 6.42 seconds

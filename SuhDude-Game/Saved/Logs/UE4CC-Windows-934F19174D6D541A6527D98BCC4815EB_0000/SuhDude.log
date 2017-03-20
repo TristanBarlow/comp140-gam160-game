@@ -1,0 +1,603 @@
+﻿Log file open, 03/16/17 09:10:22
+LogInit:Display: Running engine for game: SuhDude
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(12374027) SRandInit(12374027).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063413
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.16-09.10.22:478][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.16-09.10.22:478][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.16-09.10.22:492][  0]LogInit: Computer: LAPTOP-HOJJGP5S
+[2017.03.16-09.10.22:492][  0]LogInit: User: Tristan
+[2017.03.16-09.10.22:492][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.03.16-09.10.22:492][  0]LogInit: High frequency timer resolution =2.343752 MHz
+[2017.03.16-09.10.22:492][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2017.03.16-09.10.22:492][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.16-09.10.22:492][  0]LogMemory: Process Physical Memory: 264.14 MB used, 264.14 MB peak
+[2017.03.16-09.10.22:492][  0]LogMemory: Process Virtual Memory: 262.45 MB used, 262.45 MB peak
+[2017.03.16-09.10.22:492][  0]LogMemory: Physical Memory: 3557.74 MB used,  4473.11 MB free, 8030.84 MB total
+[2017.03.16-09.10.22:492][  0]LogMemory: Virtual Memory: 674.53 MB used,  4473.11 MB free, 134217728.00 MB total
+[2017.03.16-09.10.22:729][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.16-09.10.23:466][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.16-09.10.23:501][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.03.16-09.10.23:501][  0]LogD3D11RHI:       2020/0/4015 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.16-09.10.23:508][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.03.16-09.10.23:508][  0]LogD3D11RHI:       128/0/4015 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.16-09.10.23:509][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.16-09.10.23:509][  0]LogD3D11RHI:       0/0/4015 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.16-09.10.23:509][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.16-09.10.23:517][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.16-09.10.23:517][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.16-09.10.23:517][  0]LogWindows: EnumDisplayDevices:
+[2017.03.16-09.10.23:517][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.03.16-09.10.23:517][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.03.16-09.10.23:518][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.03.16-09.10.23:518][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.16-09.10.23:518][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.03.16-09.10.23:518][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.16-09.10.23:518][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.16-09.10.23:518][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.16-09.10.23:536][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.16-09.10.23:549][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.16-09.10.23:550][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Intermediate/Shaders/WorkingDirectory/10960/).
+[2017.03.16-09.10.23:550][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tristan/AppData/Local/Temp/UnrealShaderWorkingDir/58D3618242A8BAD44B954DA4855C311A/'.
+[2017.03.16-09.10.23:550][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.16-09.10.24:852][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.16-09.10.24:916][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.16-09.10.24:980][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.16-09.10.25:049][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.16-09.10.25:111][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.16-09.10.25:173][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.16-09.10.25:238][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.16-09.10.25:299][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.16-09.10.25:350][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.16-09.10.25:410][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.16-09.10.25:471][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.16-09.10.25:529][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.16-09.10.25:589][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.16-09.10.25:649][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.16-09.10.25:709][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.16-09.10.25:834][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.16-09.10.25:834][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.16-09.10.25:875][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.16-09.10.25:968][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.16-09.10.26:007][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.16-09.10.26:076][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.16-09.10.26:144][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.16-09.10.26:215][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.16-09.10.26:278][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.16-09.10.26:278][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.16-09.10.26:793][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.16-09.10.26:864][  0]LogDerivedDataCache: Loaded boot cache 0.07s 60MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.16-09.10.26:864][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tristan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.16-09.10.26:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.16-09.10.26:864][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.16-09.10.26:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.16-09.10.26:864][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.16-09.10.26:882][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.16-09.10.26:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tristan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.16-09.10.27:126][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.16-09.10.27:129][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.16-09.10.27:358][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.16-09.10.27:406][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.16-09.10.27:459][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.16-09.10.27:459][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.16-09.10.27:459][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.16-09.10.28:090][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: suhdude, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1980303672
+[2017.03.16-09.10.28:162][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.03.16-09.10.28:237][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.040468 seconds
+[2017.03.16-09.10.28:245][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.16-09.10.28:245][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.03.16-09.10.28:245][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.16-09.10.28:315][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.16-09.10.29:121][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.16-09.10.29:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.16-09.10.29:122][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.16-09.10.29:995][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.16-09.10.30:049][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.16-09.10.30:440][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.16-09.10.31:080][  0]SourceControl: Info Source control is disabled
+[2017.03.16-09.10.31:124][  0]SourceControl: Info Source control is disabled
+[2017.03.16-09.10.31:190][  0]SourceControl: Info Source control is disabled
+[2017.03.16-09.10.31:243][  0]SourceControl: Info Source control is disabled
+[2017.03.16-09.10.32:994][  0]LogEngine: Initializing Engine...
+[2017.03.16-09.10.32:994][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.16-09.10.33:310][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.16-09.10.33:319][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.16-09.10.33:540][  0]LogInit: FAudioDevice initialized.
+[2017.03.16-09.10.33:577][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.16-09.10.33:592][  0]LogInit: Texture streaming: Enabled
+[2017.03.16-09.10.33:802][  0]LogInit: Transaction tracking system initialized
+[2017.03.16-09.10.34:234][  0]BlueprintLog: New page: Editor Load
+[2017.03.16-09.10.35:251][  0]LocalizationService: Info Localization service is disabled
+[2017.03.16-09.10.35:981][  0]LogConsoleResponse:Display: 
+[2017.03.16-09.10.36:154][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.16-09.10.36:154][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.16-09.10.37:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/' took 0.02s
+[2017.03.16-09.10.37:255][  0]SourceControl: Info Source control is disabled
+[2017.03.16-09.10.37:256][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Maps/MenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.16-09.10.37:256][  0]LightingResults: New page: Lighting Build
+[2017.03.16-09.10.37:302][  0]MapCheck: New page: Map Check
+[2017.03.16-09.10.37:302][  0]LightingResults: New page: Lighting Build
+[2017.03.16-09.10.37:658][  0]LogAIModule: Creating AISystem for world MenuLevel
+[2017.03.16-09.10.37:667][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.16-09.10.37:667][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.16-09.10.37:714][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.381ms to complete.
+[2017.03.16-09.10.37:714][  0]LogFileHelpers: Loading map 'MenuLevel' took 0.459
+[2017.03.16-09.10.37:781][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.16-09.10.39:119][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.03.16-09.10.39:501][  0]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SuhDude
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.14
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display: BranchPath = LAPTOP-HOJJGP5S/C/Program Files/Epic Games/UE_4.14/Engine/Binaries --- GameBranchPath = LAPTOP-HOJJGP5S/C/Program Files/Epic Games/UE_4.14/Engine/Binaries
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Tristan\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.03.16-09.10.39:501][  0]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.03.16-09.10.39:501][  0]LogCollectionManager: Loaded 0 collections in 0.002136 seconds
+[2017.03.16-09.10.39:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/SuhDudeAll/SuhDude/Saved/Collections/' took 0.01s
+[2017.03.16-09.10.39:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Developers/Tristan/Collections/' took 0.01s
+[2017.03.16-09.10.39:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Collections/' took 0.01s
+[2017.03.16-09.10.39:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.16-09.10.39:837][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2192 classes and 430 folders.
+[2017.03.16-09.10.39:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.16-09.10.39:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.16-09.10.39:884][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0018 seconds. Added 13 classes and 0 folders.
+[2017.03.16-09.10.39:961][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.03.16-09.10.40:008][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.03.16-09.10.40:058][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.03.16-09.10.40:095][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.16-09.10.40:108][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.16-09.10.40:536][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.03.16-09.10.40:537][  0]LogLoad: (Engine Initialization) Total time: 19.82 seconds
+[2017.03.16-09.10.40:537][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.03.16-09.10.40:537][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.16-09.10.40:537][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.16-09.10.40:554][  0]LogOcInput: OculusInput pre-init called
+[2017.03.16-09.10.40:572][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.16-09.10.40:703][  1]LogAssetRegistry: Asset discovery search completed in 12.5627 seconds
+[2017.03.16-09.10.40:703][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.16-09.10.40:703][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.03.16-09.10.40:755][  2]LogRenderer: Reallocating scene render targets to support 820x420 NumSamples 1 (Frame:2).
+[2017.03.16-09.12.19:464][213]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-09.12.19:486][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.12.19:487][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-09.12.19:487][213]PIE: New page: PIE session: MenuLevel (16 Mar 2017 09:12:19)
+[2017.03.16-09.12.19:488][213]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2017.03.16-09.12.19:491][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003206s)
+[2017.03.16-09.12.19:492][213]LogAIModule: Creating AISystem for world MenuLevel
+[2017.03.16-09.12.19:493][213]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2017.03.16-09.12.19:493][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.005150s)
+[2017.03.16-09.12.19:521][213]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.16-09.12.19:529][213]LogInit: FAudioDevice initialized.
+[2017.03.16-09.12.19:597][213]LogLoad: Game class is 'MenuGameMode_C'
+[2017.03.16-09.12.19:599][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2017.03.16-09.12.19
+[2017.03.16-09.12.19:599][213]LogWorld: Bringing up level for play took: 0.001740
+[2017.03.16-09.12.19:661][213]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2017.03.16-09.12.19:662][213]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.12.19:662][213]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.12.19:662][213]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.12.19:663][213]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.12.19:667][213]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MenuLevel 0.067
+[2017.03.16-09.12.19:668][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.12.19:709][213]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:971).
+[2017.03.16-09.12.21:776][286]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.12.21:776][286]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.12.21:777][286]LogNet: Browse: /Game/Maps/Map1
+[2017.03.16-09.12.21:777][286]LogLoad: LoadMap: /Game/Maps/Map1
+[2017.03.16-09.12.21:825][286]Cmd: MEM
+[2017.03.16-09.12.21:847][286]LogMemory: Platform Memory Stats for Windows
+[2017.03.16-09.12.21:847][286]LogMemory: Process Physical Memory: 1461.30 MB used, 1530.64 MB peak
+[2017.03.16-09.12.21:847][286]LogMemory: Process Virtual Memory: 1832.70 MB used, 1837.89 MB peak
+[2017.03.16-09.12.21:847][286]LogMemory: Physical Memory: 5153.38 MB used,  2877.46 MB free, 8030.84 MB total
+[2017.03.16-09.12.21:847][286]LogMemory: Virtual Memory: 2646.54 MB used,  2877.46 MB free, 134217728.00 MB total
+[2017.03.16-09.12.21:847][286]LogMemory: 
+[2017.03.16-09.12.21:847][286]Allocator Stats for TBB: (not implemented)
+[2017.03.16-09.12.22:435][286]LogAIModule: Creating AISystem for world Map1
+[2017.03.16-09.12.22:435][286]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.03.16-09.12.22:443][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2017.03.16-09.12.22
+[2017.03.16-09.12.22:444][286]LogWorld: Bringing up level for play took: 0.007434
+[2017.03.16-09.12.22:445][286]LogLoad: Took 0.667993 seconds to LoadMap(/Game/Maps/Map1)
+[2017.03.16-09.12.24:090][352]LogBlueprintUserMessages: [SideOfWave2] Hello
+[2017.03.16-09.12.26:962][487]LogBlueprintUserMessages: [SideOfWave2] Hello
+[2017.03.16-09.12.30:562][694]LogBlueprintUserMessages: [SideOfWave_270] Hello
+[2017.03.16-09.12.38:385][149]LogBlueprintUserMessages: [SideOfWave2] Hello
+[2017.03.16-09.12.40:710][285]LogBlueprintUserMessages: [SideOfWave_270] Hello
+[2017.03.16-09.12.48:732][754]LogBlueprintUserMessages: [SideOfWave_270] Hello
+[2017.03.16-09.12.57:015][238]LogBlueprintUserMessages: [SideOfWave2] Hello
+[2017.03.16-09.13.02:745][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.02:815][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.06:483][781]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-09.13.06:504][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.06:504][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-09.13.06:504][781]PIE: New page: PIE session: MenuLevel (16 Mar 2017 09:13:06)
+[2017.03.16-09.13.06:506][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2017.03.16-09.13.06:511][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005007s)
+[2017.03.16-09.13.06:512][781]LogAIModule: Creating AISystem for world MenuLevel
+[2017.03.16-09.13.06:512][781]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2017.03.16-09.13.06:513][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.006478s)
+[2017.03.16-09.13.06:536][781]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.16-09.13.06:545][781]LogInit: FAudioDevice initialized.
+[2017.03.16-09.13.06:586][781]LogLoad: Game class is 'MenuGameMode_C'
+[2017.03.16-09.13.06:588][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2017.03.16-09.13.06
+[2017.03.16-09.13.06:588][781]LogWorld: Bringing up level for play took: 0.001382
+[2017.03.16-09.13.06:589][781]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.13.06:589][781]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.13.06:589][781]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.13.06:591][781]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.13.06:597][781]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MenuLevel 0.998
+[2017.03.16-09.13.06:598][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.08:224][856]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.13.08:224][856]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.13.08:228][856]LogNet: Browse: /Game/Maps/Map1
+[2017.03.16-09.13.08:228][856]LogLoad: LoadMap: /Game/Maps/Map1
+[2017.03.16-09.13.08:270][856]Cmd: MEM
+[2017.03.16-09.13.08:291][856]LogMemory: Platform Memory Stats for Windows
+[2017.03.16-09.13.08:292][856]LogMemory: Process Physical Memory: 1534.15 MB used, 1614.96 MB peak
+[2017.03.16-09.13.08:292][856]LogMemory: Process Virtual Memory: 1964.03 MB used, 2162.49 MB peak
+[2017.03.16-09.13.08:292][856]LogMemory: Physical Memory: 5206.82 MB used,  2824.02 MB free, 8030.84 MB total
+[2017.03.16-09.13.08:292][856]LogMemory: Virtual Memory: 2883.23 MB used,  2824.02 MB free, 134217728.00 MB total
+[2017.03.16-09.13.08:292][856]LogMemory: 
+[2017.03.16-09.13.08:292][856]Allocator Stats for TBB: (not implemented)
+[2017.03.16-09.13.08:483][856]LogAIModule: Creating AISystem for world Map1
+[2017.03.16-09.13.08:483][856]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.03.16-09.13.08:489][856]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2017.03.16-09.13.08
+[2017.03.16-09.13.08:489][856]LogWorld: Bringing up level for play took: 0.005667
+[2017.03.16-09.13.08:491][856]LogLoad: Took 0.262634 seconds to LoadMap(/Game/Maps/Map1)
+[2017.03.16-09.13.25:467][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.25:543][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.26:914][915]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-09.13.26:935][915]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.26:935][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-09.13.26:936][915]PIE: New page: PIE session: MenuLevel (16 Mar 2017 09:13:26)
+[2017.03.16-09.13.26:938][915]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2017.03.16-09.13.26:941][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002894s)
+[2017.03.16-09.13.26:942][915]LogAIModule: Creating AISystem for world MenuLevel
+[2017.03.16-09.13.26:942][915]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.03.16-09.13.26:942][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.004333s)
+[2017.03.16-09.13.26:967][915]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.16-09.13.26:977][915]LogInit: FAudioDevice initialized.
+[2017.03.16-09.13.27:024][915]LogLoad: Game class is 'MenuGameMode_C'
+[2017.03.16-09.13.27:026][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2017.03.16-09.13.27
+[2017.03.16-09.13.27:026][915]LogWorld: Bringing up level for play took: 0.001686
+[2017.03.16-09.13.27:027][915]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.13.27:027][915]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.13.27:027][915]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.13.27:028][915]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.13.27:032][915]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MenuLevel -0.568
+[2017.03.16-09.13.27:032][915]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.28:419][979]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.13.28:419][979]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.13.28:423][979]LogNet: Browse: /Game/Maps/Map1
+[2017.03.16-09.13.28:423][979]LogLoad: LoadMap: /Game/Maps/Map1
+[2017.03.16-09.13.28:464][979]Cmd: MEM
+[2017.03.16-09.13.28:487][979]LogMemory: Platform Memory Stats for Windows
+[2017.03.16-09.13.28:487][979]LogMemory: Process Physical Memory: 1517.10 MB used, 1623.64 MB peak
+[2017.03.16-09.13.28:487][979]LogMemory: Process Virtual Memory: 1963.01 MB used, 2221.79 MB peak
+[2017.03.16-09.13.28:487][979]LogMemory: Physical Memory: 5155.99 MB used,  2874.85 MB free, 8030.84 MB total
+[2017.03.16-09.13.28:487][979]LogMemory: Virtual Memory: 2912.67 MB used,  2874.85 MB free, 134217728.00 MB total
+[2017.03.16-09.13.28:487][979]LogMemory: 
+[2017.03.16-09.13.28:487][979]Allocator Stats for TBB: (not implemented)
+[2017.03.16-09.13.28:674][979]LogAIModule: Creating AISystem for world Map1
+[2017.03.16-09.13.28:675][979]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.03.16-09.13.28:681][979]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2017.03.16-09.13.28
+[2017.03.16-09.13.28:681][979]LogWorld: Bringing up level for play took: 0.005951
+[2017.03.16-09.13.28:682][979]LogLoad: Took 0.258780 seconds to LoadMap(/Game/Maps/Map1)
+[2017.03.16-09.13.32:726][214]LogBlueprintUserMessages: [SideOfWave_270] Hello
+[2017.03.16-09.13.32:745][215]LogNet: Browse: /Game/Maps/MenuLevel
+[2017.03.16-09.13.32:745][215]LogLoad: LoadMap: /Game/Maps/MenuLevel
+[2017.03.16-09.13.32:791][215]Cmd: MEM
+[2017.03.16-09.13.32:810][215]LogMemory: Platform Memory Stats for Windows
+[2017.03.16-09.13.32:810][215]LogMemory: Process Physical Memory: 1492.32 MB used, 1623.64 MB peak
+[2017.03.16-09.13.32:810][215]LogMemory: Process Virtual Memory: 1873.88 MB used, 2221.79 MB peak
+[2017.03.16-09.13.32:810][215]LogMemory: Physical Memory: 5124.20 MB used,  2906.65 MB free, 8030.84 MB total
+[2017.03.16-09.13.32:810][215]LogMemory: Virtual Memory: 2953.42 MB used,  2906.65 MB free, 134217728.00 MB total
+[2017.03.16-09.13.32:810][215]LogMemory: 
+[2017.03.16-09.13.32:810][215]Allocator Stats for TBB: (not implemented)
+[2017.03.16-09.13.32:810][215]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2017.03.16-09.13.32:812][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002129s)
+[2017.03.16-09.13.32:813][215]LogAIModule: Creating AISystem for world MenuLevel
+[2017.03.16-09.13.32:814][215]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2017.03.16-09.13.32:814][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.003495s)
+[2017.03.16-09.13.32:814][215]LogLoad: Game class is 'MenuGameMode_C'
+[2017.03.16-09.13.32:816][215]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2017.03.16-09.13.32
+[2017.03.16-09.13.32:817][215]LogWorld: Bringing up level for play took: 0.002174
+[2017.03.16-09.13.32:817][215]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.16-09.13.32:817][215]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.13.32:817][215]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.13.32:817][215]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.13.32:819][215]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.13.32:819][215]LogLoad: Took 0.074097 seconds to LoadMap(/Game/Maps/UEDPIE_0_MenuLevel)
+[2017.03.16-09.13.33:762][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.13.33:837][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.16.19:610][ 91]LogMetaData: Removing '/Game/SaveGame.SKEL_SaveGame_C' ref from Metadata '/Game/NewBlueprint2.PackageMetaData'
+[2017.03.16-09.16.19:610][ 91]LogMetaData: Removing '/Game/SaveGame.SaveGame_C' ref from Metadata '/Game/NewBlueprint2.PackageMetaData'
+[2017.03.16-09.16.19:655][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SaveGame" FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/SaveGame.uasset" SILENT=true
+[2017.03.16-09.16.19:666][ 91]LogSavePackage: Save=6.87ms
+[2017.03.16-09.16.19:666][ 91]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Saved/SaveGameEE4A27224111955ACAB2E0A017F6F941.tmp' to '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/SaveGame.uasset'
+[2017.03.16-09.16.19:670][ 91]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/SaveGame.uasset
+[2017.03.16-09.16.23:062][181]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 111 classes and 0 folders.
+[2017.03.16-09.18.04:744][117]BlueprintLog: New page: Compile SaveGame
+[2017.03.16-09.19.15:572][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint2" FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/NewBlueprint2.uasset" SILENT=true
+[2017.03.16-09.19.15:582][129]LogSavePackage: Save=6.92ms
+[2017.03.16-09.19.15:582][129]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Saved/NewBlueprint2945D67C24CBF23C602CB6B854424786E.tmp' to '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/NewBlueprint2.uasset'
+[2017.03.16-09.19.15:586][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/NewBlueprint2.uasset
+[2017.03.16-09.19.15:591][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SaveGame" FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/SaveGame.uasset" SILENT=true
+[2017.03.16-09.19.15:626][129]LogSavePackage: Save=6.28ms
+[2017.03.16-09.19.15:626][129]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Saved/SaveGameE5C22ABD492CC0996E4BD6A6A448F5AA.tmp' to '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/SaveGame.uasset'
+[2017.03.16-09.19.15:629][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/SaveGame.uasset
+[2017.03.16-09.19.15:636][129]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.16-09.19.15:653][129]LightingResults: New page: Lighting Build
+[2017.03.16-09.19.15:655][129]LoadErrors: New page: Loading map: Map1.umap
+[2017.03.16-09.19.15:665][129]MapCheck: New page: Map Check
+[2017.03.16-09.19.15:665][129]LightingResults: New page: Lighting Build
+[2017.03.16-09.19.15:850][129]LogAIModule: Creating AISystem for world Map1
+[2017.03.16-09.19.15:915][129]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.16-09.19.16:022][129]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.16-09.19.16:082][129]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.858ms to complete.
+[2017.03.16-09.19.16:082][129]LogFileHelpers: Loading map 'Map1' took 0.448
+[2017.03.16-09.19.18:959][290]LogEditorViewport: Clicking on Actor (LMB): PlayerCharacter_C (PlayerCharacter)
+[2017.03.16-09.19.50:081][ 39]BlueprintLog: New page: Compile Map1
+[2017.03.16-09.20.38:469][799]BlueprintLog: New page: Compile Map1
+[2017.03.16-09.21.10:667][615]BlueprintLog: New page: Compile PlayerCharacter
+[2017.03.16-09.21.27:527][605]BlueprintLog: New page: Compile Map1
+[2017.03.16-09.23.49:272][635]BlueprintLog: New page: Compile PlayerCharacter
+[2017.03.16-09.25.02:170][804]BlueprintLog: New page: Compile 2DSideScrollerGameMode
+[2017.03.16-09.25.13:183][437]BlueprintLog: New page: Compile PlayerCharacter
+[2017.03.16-09.27.39:857][127]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-09.27.39:892][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2017.03.16-09.27.39:892][127]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.16-09.27.39:901][127]LogPlayLevel: [PlayLevel] Compiling PlayerCharacter before play...
+[2017.03.16-09.27.40:111][127]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerGameMode before play...
+[2017.03.16-09.27.40:272][127]LogPlayLevel: PlayLevel: Blueprint regeneration took 380 ms (2 blueprints)
+[2017.03.16-09.27.40:272][127]PIE: New page: PIE session: Map1 (16 Mar 2017 09:27:40)
+[2017.03.16-09.27.40:273][127]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
+[2017.03.16-09.27.40:318][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045210s)
+[2017.03.16-09.27.40:319][127]LogAIModule: Creating AISystem for world Map1
+[2017.03.16-09.27.40:319][127]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2017.03.16-09.27.40:319][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.046390s)
+[2017.03.16-09.27.40:400][127]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.16-09.27.40:412][127]LogInit: FAudioDevice initialized.
+[2017.03.16-09.27.40:463][127]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.03.16-09.27.40:467][127]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2017.03.16-09.27.40
+[2017.03.16-09.27.40:467][127]LogWorld: Bringing up level for play took: 0.003247
+[2017.03.16-09.27.40:473][127]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.873
+[2017.03.16-09.27.40:474][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2017.03.16-09.27.41:823][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2017.03.16-09.27.41:909][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2017.03.16-09.27.48:919][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DSideScrollerGameMode" FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Blueprints/2DSideScrollerGameMode.uasset" SILENT=true
+[2017.03.16-09.27.48:978][519]LogSavePackage: Save=25.79ms
+[2017.03.16-09.27.48:978][519]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Saved/2DSideScrollerGameModeE93666694B48A0658FF7D9B7A2CC2D45.tmp' to '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Blueprints/2DSideScrollerGameMode.uasset'
+[2017.03.16-09.27.48:981][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Blueprints/2DSideScrollerGameMode.uasset
+[2017.03.16-09.27.48:999][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerCharacter" FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Blueprints/PlayerCharacter.uasset" SILENT=true
+[2017.03.16-09.27.49:080][519]LogSavePackage: Save=57.88ms
+[2017.03.16-09.27.49:080][519]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Saved/PlayerCharacterCAB7ECFE4A33A7A43F3B7E9799F6D374.tmp' to '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Blueprints/PlayerCharacter.uasset'
+[2017.03.16-09.27.49:084][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Blueprints/PlayerCharacter.uasset
+[2017.03.16-09.27.49:159][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.16-09.27.49:346][519]LogSavePackage: Save=132.26ms
+[2017.03.16-09.27.49:346][519]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Saved/Map1E19E5ED44856CC71D14459ADD35A20D7.tmp' to '../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Maps/Map1.umap'
+[2017.03.16-09.27.49:350][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Maps/Map1.umap
+[2017.03.16-09.27.49:384][519]LogFileHelpers: Saving map 'Map1' took 0.293
+[2017.03.16-09.27.49:388][519]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/SuhDudeAll/SuhDude/Content/Maps/MenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.16-09.27.49:398][519]LightingResults: New page: Lighting Build
+[2017.03.16-09.27.49:399][519]LoadErrors: New page: Loading map: MenuLevel.umap
+[2017.03.16-09.27.49:463][519]MapCheck: New page: Map Check
+[2017.03.16-09.27.49:463][519]LightingResults: New page: Lighting Build
+[2017.03.16-09.27.49:558][519]LogAIModule: Creating AISystem for world MenuLevel
+[2017.03.16-09.27.49:572][519]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.16-09.27.49:610][519]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.16-09.27.49:672][519]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.542ms to complete.
+[2017.03.16-09.27.49:672][519]LogFileHelpers: Loading map 'MenuLevel' took 0.285
+[2017.03.16-09.27.52:557][691]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-09.27.52:587][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.27.52:587][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-09.27.52:587][691]PIE: New page: PIE session: MenuLevel (16 Mar 2017 09:27:52)
+[2017.03.16-09.27.52:588][691]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2017.03.16-09.27.52:591][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002661s)
+[2017.03.16-09.27.52:592][691]LogAIModule: Creating AISystem for world MenuLevel
+[2017.03.16-09.27.52:592][691]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2017.03.16-09.27.52:592][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.004006s)
+[2017.03.16-09.27.52:629][691]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.16-09.27.52:638][691]LogInit: FAudioDevice initialized.
+[2017.03.16-09.27.52:681][691]LogLoad: Game class is 'MenuGameMode_C'
+[2017.03.16-09.27.52:682][691]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2017.03.16-09.27.52
+[2017.03.16-09.27.52:683][691]LogWorld: Bringing up level for play took: 0.001519
+[2017.03.16-09.27.52:684][691]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.27.52:684][691]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.16-09.27.52:684][691]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.27.52:685][691]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.16-09.27.52:690][691]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MenuLevel 1.09
+[2017.03.16-09.27.52:690][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2017.03.16-09.28.00:451][ 56]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.28.00:451][ 56]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.16-09.28.00:452][ 56]LogNet: Browse: /Game/Maps/Map1
+[2017.03.16-09.28.00:452][ 56]LogLoad: LoadMap: /Game/Maps/Map1
+[2017.03.16-09.28.00:515][ 56]Cmd: MEM
+[2017.03.16-09.28.00:549][ 56]LogMemory: Platform Memory Stats for Windows
+[2017.03.16-09.28.00:549][ 56]LogMemory: Process Physical Memory: 2635.98 MB used, 3174.14 MB peak
+[2017.03.16-09.28.00:549][ 56]LogMemory: Process Virtual Memory: 3802.77 MB used, 3850.11 MB peak
+[2017.03.16-09.28.00:549][ 56]LogMemory: Physical Memory: 6113.70 MB used,  1917.15 MB free, 8030.84 MB total
+[2017.03.16-09.28.00:549][ 56]LogMemory: Virtual Memory: 4734.54 MB used,  1917.15 MB free, 134217728.00 MB total
+[2017.03.16-09.28.00:549][ 56]LogMemory: 
+[2017.03.16-09.28.00:549][ 56]Allocator Stats for TBB: (not implemented)
+[2017.03.16-09.28.00:602][ 56]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.010 s
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: 
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1263]
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: 
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: Stack: 
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-Engine.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: UE4Editor.exe
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: KERNEL32.DLL
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: ntdll.dll
+[2017.03.16-09.28.00:602][ 56]LogOutputDevice:Error: 
+[2017.03.16-09.28.00:602][ 56]LogStats:                SubmitErrorReport -  0.000 s
