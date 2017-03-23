@@ -1,6 +1,42 @@
-﻿  Compiling game modules for hot reload
-  Performing 2 actions (2 in parallel)
+﻿  Performing full C++ include scan (building a new target)
+  Creating makefile for SuhDudeEditor (no existing makefile)
+  Parsing headers for SuhDudeEditor
+    Running UnrealHeaderTool "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\SuhDude.uproject" "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\SuhDudeEditor\Development\SuhDudeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SuhDudeEditor in 6.2390934 seconds
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-1534.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-1534.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-1856.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-1856.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-2352.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-2352.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-4322.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-4322.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-4565.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-4565.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5239.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5239.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5496.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5496.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5694.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5694.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5781.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-5781.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7219.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7219.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7349.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7349.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7647.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7647.pdb".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7883.dll".
+  Deleting old hot reload file: "C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Binaries\Win64\UE4Editor-SuhDude-7883.pdb".
+  Performing 8 actions (2 in parallel)
+  [2/8] Resource PCLaunch.rc
+  PCH.SuhDude.h.cpp
+  [3/8] Resource ModuleVersionResource.rc.inl
+  MovingObjects.cpp
   CppSpawner.cpp
-  [2/2] Link UE4Editor-SuhDude-1534.dll
-     Creating library C:\Users\Tristan\Documents\Unreal Projects\SuhDude\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-1534.lib and object C:\Users\Tristan\Documents\Unreal Projects\SuhDude\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-1534.exp
-  Total build time: 6.42 seconds
+  SuhDude.cpp
+  SuhDude.generated.cpp
+  [8/8] Link UE4Editor-SuhDude.dll
+     Creating library C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude.lib and object C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude.exp
+  Total build time: 102.93 seconds

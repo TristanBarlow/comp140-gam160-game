@@ -11,7 +11,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SUHDUDE_CppSpawner_generated_h
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execWhatToSpawn) \
 	{ \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execWhatToSpawn) \
 	{ \
@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_INCLASS_NO_PURE_DECLS \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesACppSpawner(); \
 	friend SUHDUDE_API class UClass* Z_Construct_UClass_ACppSpawner(); \
@@ -48,7 +48,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_INCLASS \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_INCLASS \
 	private: \
 	static void StaticRegisterNativesACppSpawner(); \
 	friend SUHDUDE_API class UClass* Z_Construct_UClass_ACppSpawner(); \
@@ -59,7 +59,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_STANDARD_CONSTRUCTORS \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACppSpawner(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACppSpawner) \
@@ -72,7 +72,7 @@ private: \
 public:
 
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_ENHANCED_CONSTRUCTORS \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACppSpawner(ACppSpawner&&); \
@@ -83,32 +83,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACppSpawner); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACppSpawner)
 
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_PRIVATE_PROPERTY_OFFSET
-#define SuhDude_Source_SuhDude_CppSpawner_h_8_PROLOG
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_GENERATED_BODY_LEGACY \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_PRIVATE_PROPERTY_OFFSET
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_8_PROLOG
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_PRIVATE_PROPERTY_OFFSET \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_INCLASS \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_STANDARD_CONSTRUCTORS \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_PRIVATE_PROPERTY_OFFSET \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_INCLASS \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SuhDude_Source_SuhDude_CppSpawner_h_11_GENERATED_BODY \
+#define SuhDude_Game_Source_SuhDude_CppSpawner_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_PRIVATE_PROPERTY_OFFSET \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_INCLASS_NO_PURE_DECLS \
-	SuhDude_Source_SuhDude_CppSpawner_h_11_ENHANCED_CONSTRUCTORS \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_PRIVATE_PROPERTY_OFFSET \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_INCLASS_NO_PURE_DECLS \
+	SuhDude_Game_Source_SuhDude_CppSpawner_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID SuhDude_Source_SuhDude_CppSpawner_h
+#define CURRENT_FILE_ID SuhDude_Game_Source_SuhDude_CppSpawner_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

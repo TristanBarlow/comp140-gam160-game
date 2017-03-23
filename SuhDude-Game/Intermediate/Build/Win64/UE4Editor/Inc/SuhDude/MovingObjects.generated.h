@@ -11,9 +11,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SUHDUDE_MovingObjects_generated_h
 
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS_NO_PURE_DECLS
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_INCLASS_NO_PURE_DECLS \
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS_NO_PURE_DECLS
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAMovingObjects(); \
 	friend SUHDUDE_API class UClass* Z_Construct_UClass_AMovingObjects(); \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_INCLASS \
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_INCLASS \
 	private: \
 	static void StaticRegisterNativesAMovingObjects(); \
 	friend SUHDUDE_API class UClass* Z_Construct_UClass_AMovingObjects(); \
@@ -35,7 +35,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_STANDARD_CONSTRUCTORS \
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMovingObjects(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMovingObjects) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_ENHANCED_CONSTRUCTORS \
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMovingObjects(AMovingObjects&&); \
@@ -59,32 +59,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMovingObjects); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMovingObjects)
 
 
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_PRIVATE_PROPERTY_OFFSET
-#define SuhDude_Source_SuhDude_MovingObjects_h_8_PROLOG
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_GENERATED_BODY_LEGACY \
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_PRIVATE_PROPERTY_OFFSET
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_8_PROLOG
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_PRIVATE_PROPERTY_OFFSET \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_INCLASS \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_STANDARD_CONSTRUCTORS \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_PRIVATE_PROPERTY_OFFSET \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_INCLASS \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SuhDude_Source_SuhDude_MovingObjects_h_11_GENERATED_BODY \
+#define SuhDude_Game_Source_SuhDude_MovingObjects_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_PRIVATE_PROPERTY_OFFSET \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_INCLASS_NO_PURE_DECLS \
-	SuhDude_Source_SuhDude_MovingObjects_h_11_ENHANCED_CONSTRUCTORS \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_PRIVATE_PROPERTY_OFFSET \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_INCLASS_NO_PURE_DECLS \
+	SuhDude_Game_Source_SuhDude_MovingObjects_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID SuhDude_Source_SuhDude_MovingObjects_h
+#define CURRENT_FILE_ID SuhDude_Game_Source_SuhDude_MovingObjects_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
