@@ -1,9 +1,9 @@
 {
 	"Changelist" : 3249277,
 	"CompatibleChangelist" : 3195953,
-	"BuildId" : "5371ef6f-8f9b-4799-b06d-6cf3b595d5ff",
+	"BuildId" : "fbc92a7e-e7cf-432b-96db-e951d33d34fa",
 	"Modules" : 
 	{
-		"SuhDude" : "UE4Editor-SuhDude.dll"
+		"SuhDude" : "UE4Editor-SuhDude-2913.dll"
 	}
 }
