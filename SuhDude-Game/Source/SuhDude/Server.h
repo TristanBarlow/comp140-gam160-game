@@ -17,9 +17,11 @@ public:
 	FHttpModule* Http;
 
 	UFUNCTION(BlueprintCallable, category = "Http Request")
-		void UploadToServer(FString Score);
+		void UploadToServer(FString Score, FString Message);
 	UFUNCTION(BlueprintCallable, category = "Http Request")
 		void MyHttpCall();
+	UFUNCTION(BlueprintCallable, category = "Http Request")
+		FString PrimeForAdress(FString MessageToConvert);
 
 	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
 	// Sets default values for this actor's properties
@@ -31,5 +33,4 @@ public:
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
-	
 };

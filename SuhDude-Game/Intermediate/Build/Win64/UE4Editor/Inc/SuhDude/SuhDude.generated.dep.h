@@ -11,6 +11,9 @@
 #ifndef SUHDUDE_MovingObjects_generated_h
 	#include "MovingObjects.h"
 #endif
+#ifndef SUHDUDE_MyCharacter_generated_h
+	#include "MyCharacter.h"
+#endif
 #ifndef SUHDUDE_Server_generated_h
 	#include "Server.h"
 #endif

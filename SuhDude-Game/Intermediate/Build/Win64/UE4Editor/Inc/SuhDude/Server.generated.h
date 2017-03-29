@@ -13,6 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SuhDude_Game_Source_SuhDude_Server_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPrimeForAdress) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_MessageToConvert); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=this->PrimeForAdress(Z_Param_MessageToConvert); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execMyHttpCall) \
 	{ \
 		P_FINISH; \
@@ -24,15 +33,25 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execUploadToServer) \
 	{ \
 		P_GET_PROPERTY(UStrProperty,Z_Param_Score); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_Message); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->UploadToServer(Z_Param_Score); \
+		this->UploadToServer(Z_Param_Score,Z_Param_Message); \
 		P_NATIVE_END; \
 	}
 
 
 #define SuhDude_Game_Source_SuhDude_Server_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execPrimeForAdress) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_MessageToConvert); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=this->PrimeForAdress(Z_Param_MessageToConvert); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execMyHttpCall) \
 	{ \
 		P_FINISH; \
@@ -44,9 +63,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execUploadToServer) \
 	{ \
 		P_GET_PROPERTY(UStrProperty,Z_Param_Score); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_Message); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->UploadToServer(Z_Param_Score); \
+		this->UploadToServer(Z_Param_Score,Z_Param_Message); \
 		P_NATIVE_END; \
 	}
 

@@ -1,10 +1,6 @@
 ﻿  Compiling game modules for hot reload
-  Parsing headers for SuhDudeEditor
-    Running UnrealHeaderTool "C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\SuhDude.uproject" "C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\SuhDudeEditor\Development\SuhDudeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SuhDudeEditor in 2.3251473 seconds
-  Performing 3 actions (4 in parallel)
+  Performing 2 actions (2 in parallel)
   Server.cpp
-  SuhDude.generated.cpp
-  [3/3] Link UE4Editor-SuhDude-8833.dll
-     Creating library C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-8833.lib and object C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-8833.exp
-  Total build time: 6.56 seconds
+  [2/2] Link UE4Editor-SuhDude-3293.dll
+     Creating library C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-3293.lib and object C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-3293.exp
+  Total build time: 8.05 seconds

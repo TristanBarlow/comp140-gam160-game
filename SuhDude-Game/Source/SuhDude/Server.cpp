@@ -8,6 +8,7 @@
 AServer::AServer(const class FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	Http = &FHttpModule::Get();
+	
 
 }
 
@@ -15,6 +16,7 @@ AServer::AServer(const class FObjectInitializer& ObjectInitializer) : Super(Obje
 void AServer::BeginPlay()
 {
 	Super::BeginPlay();
+	MyHttpCall();
 	
 }
 
@@ -24,14 +26,23 @@ void AServer::Tick( float DeltaTime )
 	Super::Tick( DeltaTime );
 
 }
-void AServer::UploadToServer(FString Score)
+FString AServer::PrimeForAdress(FString MessageToConvert)
 {
+	FString stringToCheck = MessageToConvert;
+	FString PrimedString = stringToCheck.Replace(TEXT(" "), TEXT("%20"));
+	return PrimedString;
+}
+
+void AServer::UploadToServer(FString Score, FString Message)
+{
+	FString Blab = "&Message=";
 	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
 	Request->OnProcessRequestComplete().BindUObject(this, &AServer::OnResponseReceived);
 	//This is the url on which to process the request
-	Request->SetURL("http://ec2-50-112-74-134.us-west-2.compute.amazonaws.com/link.py?Score="+Score);
+	Request->SetURL("http://ec2-50-112-74-134.us-west-2.compute.amazonaws.com/link.py?Score="+Score + Blab + Message);
 	Request->SetVerb("GET");
 	Request->ProcessRequest();
+
 }
 
 /*Http call*/
@@ -59,7 +70,7 @@ void AServer::OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Respo
 	if (FJsonSerializer::Deserialize(Reader, JsonObject))
 	{
 		//Get the value of the json object by field name
-		int32 recievedInt = JsonObject->GetIntegerField("customInt");
+		int32 recievedInt = JsonObject->GetIntegerField("Score");
 
 		//Output it to the engine
 		GEngine->AddOnScreenDebugMessage(1, 2.0f, FColor::Green, FString::FromInt(recievedInt));

@@ -2,7 +2,7 @@
 	"TargetName" : "SuhDudeEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "fbc92a7e-e7cf-432b-96db-e951d33d34fa",
+	"BuildId" : "c9e824b8-ccea-45f2-a471-1e262229e290",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -16,15 +16,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude-2913.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude-2366.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude-2913.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude-2366.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SuhDude-2913.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SuhDude-2366.lib",
 			"Type" : "ImportLibrary"
 		}
 	],

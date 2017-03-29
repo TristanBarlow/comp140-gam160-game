@@ -1,69 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\SuhDude.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{63FBD0B2-EEE4-4DB7-A87B-3CE64EDFB6A1}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\SuhDude.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\SuhDudeEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{4B3C4479-6D4E-422A-88EB-922A22FB7008}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\SuhDude">
-      <UniqueIdentifier>{BE6A871C-8BF4-4A2E-9A25-AE19C882BA58}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\SuhDude\CppSpawner.cpp">
-      <Filter>Source\SuhDude</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SuhDude\CppSpawner.h">
-      <Filter>Source\SuhDude</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\SuhDude\MovingObjects.cpp">
-      <Filter>Source\SuhDude</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SuhDude\MovingObjects.h">
-      <Filter>Source\SuhDude</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\SuhDude\Server.cpp">
-      <Filter>Source\SuhDude</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SuhDude\Server.h">
-      <Filter>Source\SuhDude</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\SuhDude\Source - Shortcut.lnk">
-      <Filter>Source\SuhDude</Filter>
-    </None>
-    <None Include="..\..\Source\SuhDude\SuhDude.Build.cs">
-      <Filter>Source\SuhDude</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\SuhDude\SuhDude.cpp">
-      <Filter>Source\SuhDude</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\SuhDude\SuhDude.h">
-      <Filter>Source\SuhDude</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\..\..\..\Program Files (x86)\Epic Games\4.14\Engine\Source\Runtime\Online\HTTP\Public\Http.h" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\SuhDude.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7933D8BB-18CE-4891-9086-97F400F6E63D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SuhDude.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SuhDudeEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{AFFFEF7D-88F6-468E-AD4A-DD07BC370821}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SuhDude">
+			<UniqueIdentifier>{43DC18AC-725D-4FBA-B9DB-B93342A34B71}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SuhDude\CppSpawner.cpp">
+			<Filter>Source\SuhDude</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuhDude\CppSpawner.h">
+			<Filter>Source\SuhDude</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SuhDude\MovingObjects.cpp">
+			<Filter>Source\SuhDude</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuhDude\MovingObjects.h">
+			<Filter>Source\SuhDude</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SuhDude\MyCharacter.cpp">
+			<Filter>Source\SuhDude</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuhDude\MyCharacter.h">
+			<Filter>Source\SuhDude</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SuhDude\Server.cpp">
+			<Filter>Source\SuhDude</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuhDude\Server.h">
+			<Filter>Source\SuhDude</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\SuhDude\Source - Shortcut.lnk">
+			<Filter>Source\SuhDude</Filter>
+		</None >
+		<None Include="..\..\Source\SuhDude\SuhDude.Build.cs">
+			<Filter>Source\SuhDude</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SuhDude\SuhDude.cpp">
+			<Filter>Source\SuhDude</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SuhDude\SuhDude.h">
+			<Filter>Source\SuhDude</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
