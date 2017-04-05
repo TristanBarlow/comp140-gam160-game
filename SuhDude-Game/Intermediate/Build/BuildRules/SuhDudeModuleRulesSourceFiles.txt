@@ -1,3 +1,4 @@
 C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Source\SuhDude\SuhDude.Build.cs
+C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Plugins\UE4Duino\Source\UE4Duino\UE4Duino.Build.cs
 C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Source\SuhDude.Target.cs
 C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Source\SuhDudeEditor.Target.cs
