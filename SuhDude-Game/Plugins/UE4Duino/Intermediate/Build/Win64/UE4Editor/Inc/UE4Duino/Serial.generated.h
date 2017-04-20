@@ -12,7 +12,7 @@ class USerial;
 #endif
 #define UE4DUINO_Serial_generated_h
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetBaud) \
 	{ \
@@ -184,7 +184,7 @@ class USerial;
 	}
 
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetBaud) \
 	{ \
@@ -356,7 +356,7 @@ class USerial;
 	}
 
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS_NO_PURE_DECLS \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesUSerial(); \
 	friend UE4DUINO_API class UClass* Z_Construct_UClass_USerial(); \
@@ -367,7 +367,7 @@ class USerial;
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS \
 	private: \
 	static void StaticRegisterNativesUSerial(); \
 	friend UE4DUINO_API class UClass* Z_Construct_UClass_USerial(); \
@@ -378,7 +378,7 @@ class USerial;
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_STANDARD_CONSTRUCTORS \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USerial(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USerial) \
@@ -391,7 +391,7 @@ private: \
 public:
 
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_ENHANCED_CONSTRUCTORS \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API USerial(USerial&&); \
@@ -402,32 +402,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USerial); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USerial)
 
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_PRIVATE_PROPERTY_OFFSET
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_21_PROLOG
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_GENERATED_BODY_LEGACY \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_PRIVATE_PROPERTY_OFFSET
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_21_PROLOG
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_PRIVATE_PROPERTY_OFFSET \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_STANDARD_CONSTRUCTORS \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_PRIVATE_PROPERTY_OFFSET \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_GENERATED_BODY \
+#define SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_PRIVATE_PROPERTY_OFFSET \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS_NO_PURE_DECLS \
-	StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_ENHANCED_CONSTRUCTORS \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_PRIVATE_PROPERTY_OFFSET \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_INCLASS_NO_PURE_DECLS \
+	SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID StrangerThings_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h
+#define CURRENT_FILE_ID SuhDude_Game_Plugins_UE4Duino_Source_UE4Duino_Private_Serial_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

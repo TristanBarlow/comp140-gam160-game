@@ -16,6 +16,18 @@
 	"BuildProducts" :
 	[
 		{
+			"Path" : "$(ProjectDir)/Plugins/UE4Duino/Binaries/Win64/UE4Editor-UE4Duino.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)/Plugins/UE4Duino/Binaries/Win64/UE4Editor-UE4Duino.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)/Plugins/UE4Duino/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-UE4Duino.lib",
+			"Type" : "ImportLibrary"
+		},
+		{
 			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude.dll",
 			"Type" : "DynamicLibrary"
 		},
@@ -32,6 +44,10 @@
 	[
 		{
 			"Path" : "$(ProjectDir)/SuhDude.uproject",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(ProjectDir)/Plugins/UE4Duino/UE4Duino.uplugin",
 			"Type" : "UFS"
 		},
 		{
