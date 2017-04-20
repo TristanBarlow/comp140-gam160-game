@@ -1,6 +1,6 @@
 ﻿  Compiling game modules for hot reload
-  Performing 2 actions (2 in parallel)
-  Server.cpp
-  [2/2] Link UE4Editor-SuhDude-3293.dll
-     Creating library C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-3293.lib and object C:\Users\Tristan\Documents\UniWork\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-3293.exp
-  Total build time: 8.05 seconds
+  Performing 2 actions (4 in parallel)
+  Arduino.cpp
+  [2/2] Link UE4Editor-SuhDude-1600.dll
+     Creating library C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-1600.lib and object C:\Users\Tristan\Documents\Tristan Work\Semester 2\comp140-gam160-game\SuhDude-Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SuhDude-1600.exp
+  Total build time: 3.47 seconds

@@ -5,6 +5,9 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
+#ifndef SUHDUDE_Arduino_generated_h
+	#include "Arduino.h"
+#endif
 #ifndef SUHDUDE_CppSpawner_generated_h
 	#include "CppSpawner.h"
 #endif

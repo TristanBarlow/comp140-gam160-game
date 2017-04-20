@@ -10,6 +10,11 @@
 #include "SuhDude.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1SuhDude() {}
+	void AArduino::StaticRegisterNativesAArduino()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(AArduino::StaticClass(), "ArduinoReadResult",(Native)&AArduino::execArduinoReadResult);
+	}
+	IMPLEMENT_CLASS(AArduino, 737698360);
 	void ACppSpawner::StaticRegisterNativesACppSpawner()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ACppSpawner::StaticClass(), "WhatToSpawn",(Native)&ACppSpawner::execWhatToSpawn);
@@ -36,6 +41,9 @@ void EmptyLinkFunctionForGeneratedCode1SuhDude() {}
 	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
 
+	SUHDUDE_API class UFunction* Z_Construct_UFunction_AArduino_ArduinoReadResult();
+	SUHDUDE_API class UClass* Z_Construct_UClass_AArduino_NoRegister();
+	SUHDUDE_API class UClass* Z_Construct_UClass_AArduino();
 	SUHDUDE_API class UFunction* Z_Construct_UFunction_ACppSpawner_WhatToSpawn();
 	SUHDUDE_API class UClass* Z_Construct_UClass_ACppSpawner_NoRegister();
 	SUHDUDE_API class UClass* Z_Construct_UClass_ACppSpawner();
@@ -49,6 +57,68 @@ void EmptyLinkFunctionForGeneratedCode1SuhDude() {}
 	SUHDUDE_API class UClass* Z_Construct_UClass_AServer_NoRegister();
 	SUHDUDE_API class UClass* Z_Construct_UClass_AServer();
 	SUHDUDE_API class UPackage* Z_Construct_UPackage__Script_SuhDude();
+	UFunction* Z_Construct_UFunction_AArduino_ArduinoReadResult()
+	{
+		struct Arduino_eventArduinoReadResult_Parms
+		{
+			FString RawDataRead;
+			FString ReturnValue;
+		};
+		UObject* Outer=Z_Construct_UClass_AArduino();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("ArduinoReadResult"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535, sizeof(Arduino_eventArduinoReadResult_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(ReturnValue, Arduino_eventArduinoReadResult_Parms), 0x0010000000000580);
+			UProperty* NewProp_RawDataRead = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("RawDataRead"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(RawDataRead, Arduino_eventArduinoReadResult_Parms), 0x0010000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Arduino"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("Arduino.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_AArduino_NoRegister()
+	{
+		return AArduino::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AArduino()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage__Script_SuhDude();
+			OuterClass = AArduino::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_AArduino_ArduinoReadResult());
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_str = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("str"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(str, AArduino), 0x0010000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AArduino_ArduinoReadResult(), "ArduinoReadResult"); // 1129687155
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Arduino.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Arduino.h"));
+				MetaData->SetValue(NewProp_str, TEXT("Category"), TEXT("Arduino"));
+				MetaData->SetValue(NewProp_str, TEXT("ModuleRelativePath"), TEXT("Arduino.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AArduino(Z_Construct_UClass_AArduino, &AArduino::StaticClass, TEXT("AArduino"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AArduino);
 	UFunction* Z_Construct_UFunction_ACppSpawner_WhatToSpawn()
 	{
 		struct CppSpawner_eventWhatToSpawn_Parms
@@ -287,8 +357,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/SuhDude")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x2E3159F5;
-			Guid.B = 0x087F3BF0;
+			Guid.A = 0xAD6C3BE1;
+			Guid.B = 0xA0BD7013;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
