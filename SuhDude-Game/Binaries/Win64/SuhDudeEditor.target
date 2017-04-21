@@ -2,7 +2,7 @@
 	"TargetName" : "SuhDudeEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "1222b085-500e-479b-a7ab-e61c2aa0196e",
+	"BuildId" : "",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -16,27 +16,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Plugins/UE4Duino/Binaries/Win64/UE4Editor-UE4Duino-7915.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Plugins/UE4Duino/Binaries/Win64/UE4Editor-UE4Duino-7915.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Plugins/UE4Duino/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-UE4Duino-7915.lib",
-			"Type" : "ImportLibrary"
-		},
-		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude-6199.dll",
-			"Type" : "DynamicLibrary"
-		},
-		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SuhDude-6199.pdb",
-			"Type" : "SymbolFile"
-		},
-		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SuhDude-6199.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SuhDude.lib",
 			"Type" : "ImportLibrary"
 		}
 	],
@@ -44,10 +32,6 @@
 	[
 		{
 			"Path" : "$(ProjectDir)/SuhDude.uproject",
-			"Type" : "UFS"
-		},
-		{
-			"Path" : "$(ProjectDir)/Plugins/UE4Duino/UE4Duino.uplugin",
 			"Type" : "UFS"
 		},
 		{
