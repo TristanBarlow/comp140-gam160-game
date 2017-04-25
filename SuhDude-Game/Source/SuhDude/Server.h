@@ -19,8 +19,6 @@ public:
 	UFUNCTION(BlueprintCallable, category = "Http Request")
 		void UploadToServer(FString Score, FString Message);
 	UFUNCTION(BlueprintCallable, category = "Http Request")
-		void MyHttpCall();
-	UFUNCTION(BlueprintCallable, category = "Http Request")
 		FString PrimeForAdress(FString MessageToConvert);
 
 	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);

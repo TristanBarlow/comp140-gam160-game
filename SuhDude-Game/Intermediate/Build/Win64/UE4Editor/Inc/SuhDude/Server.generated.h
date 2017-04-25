@@ -22,14 +22,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execMyHttpCall) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->MyHttpCall(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execUploadToServer) \
 	{ \
 		P_GET_PROPERTY(UStrProperty,Z_Param_Score); \
@@ -49,14 +41,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(FString*)Z_Param__Result=this->PrimeForAdress(Z_Param_MessageToConvert); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execMyHttpCall) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->MyHttpCall(); \
 		P_NATIVE_END; \
 	} \
  \

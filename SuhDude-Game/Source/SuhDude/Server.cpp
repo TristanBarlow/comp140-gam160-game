@@ -8,16 +8,12 @@
 AServer::AServer(const class FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	Http = &FHttpModule::Get();
-	
-
 }
 
 // Called when the game starts or when spawned
 void AServer::BeginPlay()
 {
 	Super::BeginPlay();
-	MyHttpCall();
-	
 }
 
 // Called every frame
@@ -29,32 +25,18 @@ void AServer::Tick( float DeltaTime )
 FString AServer::PrimeForAdress(FString MessageToConvert)
 {
 	FString stringToCheck = MessageToConvert;
-	FString PrimedString = stringToCheck.Replace(TEXT(" "), TEXT("%20"));
+	FString PrimedString = stringToCheck.Replace(TEXT(" "), TEXT("%20")); //Replacing the string so that spaces become "%20" so that the post message can support spaces.
 	return PrimedString;
 }
-
+/*Makes the http get request to send the score and the message. It is called and used inside the "httpActor" blueprint class*/
 void AServer::UploadToServer(FString Score, FString Message)
 {
-	FString Blab = "&Message=";
+	FString FirstGetVariable = "&Message="; //setting the X to parse it into the the httprequest string
 	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
 	Request->OnProcessRequestComplete().BindUObject(this, &AServer::OnResponseReceived);
 	//This is the url on which to process the request
-	Request->SetURL("http://ec2-50-112-74-134.us-west-2.compute.amazonaws.com/link.py?Score="+Score + Blab + Message);
+	Request->SetURL("http://ec2-50-112-74-134.us-west-2.compute.amazonaws.com/link.py?Score="+Score + FirstGetVariable + Message);
 	Request->SetVerb("GET");
-	Request->ProcessRequest();
-
-}
-
-/*Http call*/
-void AServer::MyHttpCall()
-{
-	TSharedRef<IHttpRequest> Request = Http->CreateRequest();
-	Request->OnProcessRequestComplete().BindUObject(this, &AServer::OnResponseReceived);
-	//This is the url on which to process the request
-	Request->SetURL("http://ec2-50-112-74-134.us-west-2.compute.amazonaws.com/");
-	Request->SetVerb("GET");
-	Request->SetHeader(TEXT("User-Agent"), "X-UnrealEngine-Agent");
-	Request->SetHeader("Content-Type", TEXT("score"));
 	Request->ProcessRequest();
 }
 void AServer::OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful)

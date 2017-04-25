@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SuhDude.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{19DC6FAC-E165-49B5-8956-856F81C5FB42}</UniqueIdentifier>
+			<UniqueIdentifier>{CCE7D338-F853-4431-91B7-55F4135C92A2}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SuhDude.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{21C38C81-0E7A-4AEE-97D6-ECEADC91C795}</UniqueIdentifier>
+			<UniqueIdentifier>{2C54346D-4671-4FAF-AFC2-5EED04FFEE1E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -30,53 +30,8 @@
 		<None Include="..\..\Config\DefaultInput.ini">
 			<Filter>Config</Filter>
 		</None >
-		<Filter Include="Plugins">
-			<UniqueIdentifier>{0086C46F-0FDE-4CE2-87F0-B64440168A8F}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\UE4Duino">
-			<UniqueIdentifier>{32095890-AE9E-499C-A2CA-DF1EB44F7C5B}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\UE4Duino\Source">
-			<UniqueIdentifier>{4590AA27-03E2-4D83-B7DC-098A4F02D49D}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\UE4Duino\Source\UE4Duino">
-			<UniqueIdentifier>{ECB4F25E-9BBD-483F-B61E-18DE32B0E9C9}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\UE4Duino\Source\UE4Duino\UE4Duino.Build.cs">
-			<Filter>Plugins\UE4Duino\Source\UE4Duino</Filter>
-		</None >
-		<Filter Include="Plugins\UE4Duino\Source\UE4Duino\Private">
-			<UniqueIdentifier>{D1D51234-736C-47B9-B448-74FC614BF5E0}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Private\Serial.cpp">
-			<Filter>Plugins\UE4Duino\Source\UE4Duino\Private</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Private\Serial.h">
-			<Filter>Plugins\UE4Duino\Source\UE4Duino\Private</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Private\UE4DuinoModule.cpp">
-			<Filter>Plugins\UE4Duino\Source\UE4Duino\Private</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Private\UE4DuinoModule.h">
-			<Filter>Plugins\UE4Duino\Source\UE4Duino\Private</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Plugins\UE4Duino\Source\UE4Duino\Private\UE4DuinoPCH.h">
-			<Filter>Plugins\UE4Duino\Source\UE4Duino\Private</Filter>
-		</ClInclude >
-		<None Include="..\..\Plugins\UE4Duino\UE4Duino.uplugin">
-			<Filter>Plugins\UE4Duino</Filter>
-		</None >
-		<Filter Include="Plugins\UE4Duino\Resources">
-			<UniqueIdentifier>{463F8B17-9028-49A1-9455-75BBCBEEEF94}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\UE4Duino\Resources\Icon128.png">
-			<Filter>Plugins\UE4Duino\Resources</Filter>
-		</None >
-		<None Include="..\..\Plugins\UE4Duino\Resources\Logo.ai">
-			<Filter>Plugins\UE4Duino\Resources</Filter>
-		</None >
 		<Filter Include="Source\SuhDude">
-			<UniqueIdentifier>{BFC1E5DF-A8DC-431A-AC0A-F25A0BF53F70}</UniqueIdentifier>
+			<UniqueIdentifier>{48ADF761-BDAA-4F98-9AF9-81D63FEF7903}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\SuhDude\Arduino.cpp">
 			<Filter>Source\SuhDude</Filter>

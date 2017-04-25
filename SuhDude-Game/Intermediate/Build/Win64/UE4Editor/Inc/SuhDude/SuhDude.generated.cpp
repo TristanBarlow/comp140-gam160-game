@@ -30,11 +30,10 @@ void EmptyLinkFunctionForGeneratedCode1SuhDude() {}
 	IMPLEMENT_CLASS(AMyCharacter, 2774603859);
 	void AServer::StaticRegisterNativesAServer()
 	{
-		FNativeFunctionRegistrar::RegisterFunction(AServer::StaticClass(), "MyHttpCall",(Native)&AServer::execMyHttpCall);
 		FNativeFunctionRegistrar::RegisterFunction(AServer::StaticClass(), "PrimeForAdress",(Native)&AServer::execPrimeForAdress);
 		FNativeFunctionRegistrar::RegisterFunction(AServer::StaticClass(), "UploadToServer",(Native)&AServer::execUploadToServer);
 	}
-	IMPLEMENT_CLASS(AServer, 3552569899);
+	IMPLEMENT_CLASS(AServer, 2188530422);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AActor();
@@ -51,7 +50,6 @@ void EmptyLinkFunctionForGeneratedCode1SuhDude() {}
 	SUHDUDE_API class UClass* Z_Construct_UClass_AMovingObjects();
 	SUHDUDE_API class UClass* Z_Construct_UClass_AMyCharacter_NoRegister();
 	SUHDUDE_API class UClass* Z_Construct_UClass_AMyCharacter();
-	SUHDUDE_API class UFunction* Z_Construct_UFunction_AServer_MyHttpCall();
 	SUHDUDE_API class UFunction* Z_Construct_UFunction_AServer_PrimeForAdress();
 	SUHDUDE_API class UFunction* Z_Construct_UFunction_AServer_UploadToServer();
 	SUHDUDE_API class UClass* Z_Construct_UClass_AServer_NoRegister();
@@ -246,23 +244,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyCharacter(Z_Construct_UClass_AMyCharacter, &AMyCharacter::StaticClass, TEXT("AMyCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyCharacter);
-	UFunction* Z_Construct_UFunction_AServer_MyHttpCall()
-	{
-		UObject* Outer=Z_Construct_UClass_AServer();
-		static UFunction* ReturnFunction = NULL;
-		if (!ReturnFunction)
-		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("MyHttpCall"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535);
-			ReturnFunction->Bind();
-			ReturnFunction->StaticLink();
-#if WITH_METADATA
-			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
-			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Http Request"));
-			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("Server.h"));
-#endif
-		}
-		return ReturnFunction;
-	}
 	UFunction* Z_Construct_UFunction_AServer_PrimeForAdress()
 	{
 		struct Server_eventPrimeForAdress_Parms
@@ -328,11 +309,9 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900080;
 
-				OuterClass->LinkChild(Z_Construct_UFunction_AServer_MyHttpCall());
 				OuterClass->LinkChild(Z_Construct_UFunction_AServer_PrimeForAdress());
 				OuterClass->LinkChild(Z_Construct_UFunction_AServer_UploadToServer());
 
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AServer_MyHttpCall(), "MyHttpCall"); // 2385924590
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AServer_PrimeForAdress(), "PrimeForAdress"); // 1603696760
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AServer_UploadToServer(), "UploadToServer"); // 3924973706
 				OuterClass->StaticLink();
@@ -357,8 +336,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/SuhDude")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xAD6C3BE1;
-			Guid.B = 0xA0BD7013;
+			Guid.A = 0x40259250;
+			Guid.B = 0xF1E1C44D;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

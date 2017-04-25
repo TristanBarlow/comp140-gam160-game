@@ -3,6 +3,7 @@
 
 #include "SuhDude.h"
 #include "Arduino.h"
+#include "Engine.h"
 
 
 // Sets default values
@@ -160,7 +161,7 @@ void AArduino::Tick(float DeltaTime)
 
 	}
 	else {
-		UE_LOG(LogTemp, Warning, TEXT("Not Connected"));
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("not connected"));
 	}
 }
 
