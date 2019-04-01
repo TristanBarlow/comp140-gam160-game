@@ -4,6 +4,10 @@
 
 ## **Link to repository** https://github.com/TristanBarlow/comp140-gam160-game
 
+## **VIDEO**
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/https://youtu.be/PSkrvWkLxbw/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/PSkrvWkLxbw)
+
+
 ### **Overview**
 Suh dude will be a game about surfing. Somehow you’ve managed to catch a tidal wave set on destroying the coast of cornwall, you must use your immense skills to weave a safe path through all the debris in your way not doing so will leave you dead!
 
