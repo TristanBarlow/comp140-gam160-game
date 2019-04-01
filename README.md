@@ -5,7 +5,7 @@
 ## **Link to repository** https://github.com/TristanBarlow/comp140-gam160-game
 
 ## **VIDEO**
-[![IMAGE ALT TEXT HERE](https://github.com/TristanBarlow/comp140-gam160-game/blob/master/thumbnail.png)](https://www.youtube.com/watch?v=PSkrvWkLxbw)
+[![IMAGE ALT TEXT HERE](https://github.com/TristanBarlow/comp140-gam160-game/blob/master/suhdud.png)](https://www.youtube.com/watch?v=PSkrvWkLxbw)
 
 
 ### **Overview**
